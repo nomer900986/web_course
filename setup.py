@@ -33,7 +33,7 @@ setup(
     license=module.__license__,
     description=module.__doc__,
     long_description=open('README.rst').read(),
-    url='https://github.com/alvassin/backendschool2019',
+    url='https://github.com/nomer900986/web_course',
     platforms='all',
     classifiers=[
         'Intended Audience :: Developers',
