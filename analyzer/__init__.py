@@ -1,12 +1,11 @@
 """
 Сервис с REST API, анализирующий рынок для промо-акций.
-Пример решения вступительного испытания 2019г. в Школу бэкенд‑разработки
-Яндекса.
+
 """
-__author__ = 'Alexander Vasin'
+__author__ = 'Stepan Krutikov'
 __maintainer__ = __author__
 
-__email__ = 'alvassin@yandex.ru'
+__email__ = 'nomer900986@yandex.ru'
 __license__ = 'MIT'
 __version__ = '0.0.1'
 

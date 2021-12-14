@@ -1,7 +1,7 @@
 import logging
 from http import HTTPStatus
 
-from locust import HttpLocust, TaskSet, constant, task
+from locust import TaskSet, constant, task, HttpUser
 from locust.exception import RescheduleTask
 
 from analyzer.api.handlers import (
@@ -83,6 +83,6 @@ class AnalyzerTaskSet(TaskSet):
         self.get_town_stats(import_id)
 
 
-class WebsiteUser(HttpLocust):
+class WebsiteUser(HttpUser):
     task_set = AnalyzerTaskSet
     wait_time = constant(1)
